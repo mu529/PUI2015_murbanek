@@ -57,12 +57,13 @@ import matplotlib.pyplot as plt
 
 fig = plt.figure(figsize = (10,8))
 ax1 = fig.add_subplot(111)
-ax1.scatter(np.unique(plutobuilt['YearBuilt']), plutobuilt.groupby('YearBuilt')['AvgUnitSize'].mean(), c='b', label='New Buildings')
-ax1.scatter(np.unique(plutorenov['LatestYear']), plutorenov.groupby('LatestYear')['AvgUnitSize'].mean(), c='r', label='Renovations')
+ax1.scatter(np.unique(plutobuilt['YearBuilt']), plutobuilt.groupby('YearBuilt')['AvgUnitSize'].mean(), c='darkblue', label='New Buildings', marker='o')
+ax1.scatter(np.unique(plutorenov['LatestYear']), plutorenov.groupby('LatestYear')['AvgUnitSize'].mean(), c='#FF1C00', label='Renovations', marker='o')
 plt.legend(loc='upper left', fontsize=18);
 plt.xlim(1880, 2020)
 plt.ylim(0, 3500)
 plt.xlabel('Year', fontsize = 16)
 plt.ylabel('Avg Sq Ft', fontsize = 16)
 plt.title('Average Residential Unit Size\n Original versus Renovations, Manhattan + Brooklyn', fontsize = 24)
+#plt.show()
 plt.savefig('foo.png')
