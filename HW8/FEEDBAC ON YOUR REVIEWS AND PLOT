@@ -1,0 +1,56 @@
+excellent reviews really! 10/10
+
+
+NOTES ON YOUR PLOT
+===================
+
+interesting plot: the choice of plotting with small points allows the structure in the data to be seen
+
+robust to color blindness
+
+the three default dots in the legend should be changed to 1 as they are redudnant
+
+
+NOTES ON YOUR PLOT THE PLOTS YOU REVIEWED
+===========================================
+
+
+diegosmiles
+============
+
+color unexplained
+
+size redundant with y position. this rather than clarify the value enforces the concept and leaves a strong impression on the reader, influencing their opinion.
+
+a ticks too small
+
+
+
+erenc
+============
+
+the 3d obstructs the structure, but the structure is symmetric so this is justified
+
+the color is redundant with the z axis, but it helos read the y value in the 3D structure
+
+the z axis label is ambiguous: spell the function out
+
+the axis labels are too small to be readable
+
+
+
+carlyleadavis
+============
+compact visualization that summarized a lot of the data structure. 
+
+however there is a conceptual problem for this plot when it is used for a time series rather than categories. the reader is invariably given the impression that finance (blue here) lags behind in time w respect to the yellow category. this is the wrong (and in fact meaningless) impression but it is distracting.
+
+y label ambiguous
+
+what year are we referring to? include in title
+
+a legend should tell whether the dotted and dashed lines are the mean or the median and the quirtiles or what else, though that can also be included in the caption. 
+
+
+the mean (median?) would be better displayed as a solid line to further separate it from the quartiles (it woudl be hardin the caption to refer to the in words and disinguish them) 
+
